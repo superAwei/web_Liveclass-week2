@@ -1,0 +1,105 @@
+/* 共用CSS */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+h2{
+    font: italic normal medium 64px/75px Roboto;
+}
+
+
+.txt{
+    font: italic normal bold 24px/36px Roboto;
+}
+.info{
+    font-size: 20px;
+    line-height: 42px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.mb-68{
+    margin-bottom: 68px;
+}
+.mb-160{
+   margin-bottom: 160px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-56{
+    margin-bottom: 56px;
+}
+
+/* 廣告區塊 */
+.banner{
+    height: 958px;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+ color:#fff;
+}
+.banner-content h1{
+    font: italic normal 900 80px/94px Roboto;
+}
+.banner-content ul{
+    display: flex;
+    margin-top: 48px;
+    justify-content: space-around;
+}
+
+/* 關於我區塊 */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-content{
+ text-align: center;
+}
+.about-content hr{
+    width: 384px;
+}
+
+/* 品牌說明區塊 */
+.intro{
+    background-color: #000000;
+}
+.intro-content{
+    text-align: center;
+    color:#fff;
+}
+.intro-img {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+/* 作品介紹 */
+.works{
+    text-align: center;
+}
+.work-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.work-content li{
+    margin-bottom: 56px;
+}
+/* 聯絡我們 */
+.footer{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding:64px 0px 80px 0px;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff
+}
