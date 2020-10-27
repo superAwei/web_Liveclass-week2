@@ -15,6 +15,9 @@ h2{
     font-size: 20px;
     line-height: 42px;
 }
+.mb-24{
+    margin-bottom: 24px;
+}
 .mb-32{
     margin-bottom: 32px;
 }
@@ -64,7 +67,22 @@ h2{
 }
 .about-content hr{
     width: 384px;
+    margin: 32px;
 }
+
+.about-content i{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #891818;
+    margin-right: 16px;
+}
+.resume li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* 品牌說明區塊 */
 .intro{
