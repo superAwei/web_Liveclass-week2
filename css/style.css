@@ -4,7 +4,10 @@
     margin: 0 auto;
 }
 h2{
-    font: italic normal medium 64px/75px Roboto;
+    font-family: italic Roboto;
+    font-size: 64px;
+    line-height:75px;
+    /* font: italic normal  64px/75px Roboto; */
 }
 
 
@@ -24,8 +27,8 @@ h2{
 .mb-68{
     margin-bottom: 68px;
 }
-.mb-160{
-   margin-bottom: 160px;
+.pb-160{
+   padding-bottom: 160px;
 }
 .mb-40{
     margin-bottom: 40px;
